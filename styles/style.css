@@ -78,6 +78,10 @@
     border-radius: 12px;
   }
 
+  .navbar-small{
+    display: none;
+  }
+
   /* banner styles */
   .banner{
     display: flex;
@@ -111,4 +115,29 @@
     font-weight: 700;
     font-size: 1.25rem;
     margin-top: 24px;
+  }
+
+  /* responsive */
+
+  @media screen and (max-width: 576px) {
+    .navbar {
+       display: none;
+    }
+
+    .navbar-small{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid rgba(254, 163, 1, 1);
+        padding-bottom: 30px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner-content{
+        text-align: center;
+    }
+
   }
