@@ -13,19 +13,17 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
- /* main{
-    width: 1440px;
-    margin: 0 auto;
-} */
 
+/* .hide{
+    display: none;
+} */
+ 
   /* navbar styles */
 
   .navbar{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    /* max-width: 1440px; */
-    /* margin: 0 auto; */
  }
 
  .logo{
@@ -93,7 +91,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* max-width: 1440px; */
     margin: 0 auto;
   }
 
@@ -125,8 +122,6 @@ body{
 
 /* standard curriculum styles */
   .standard-curriculum{
-    /* max-width: 1440px; */
-    margin: 0 auto;
     background-image: url("../images/bg.png");
     text-align: center;
   }
@@ -284,6 +279,7 @@ body{
   .links-section li{
     margin-bottom: 5px;
   }
+  
   .links-section a{
     color: white;
     text-decoration: none;
@@ -329,5 +325,8 @@ body{
         display: none;
     }
 
+    .footer-container{
+        flex-direction: column;
+    }
 
   }
