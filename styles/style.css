@@ -141,21 +141,47 @@ main{
     height: 500px;
     background: linear-gradient(rgba(222, 245, 255, 1),white);
     border-radius: 10px;
-    box-shadow: 0 5px 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 0 1px rgba(0, 0, 0, 0.05);
+    padding-top: 80px;
+  }
+
+  .card-1 a{
+    text-decoration: none;
+    color: rgba(100, 200, 255, 1);
   }
   .card-2{
     width: 400px;
     height: 500px;
     background: linear-gradient(rgba(255, 244, 220, 1),white);
     border-radius: 10px;
+    box-shadow: 0 3px 0 1px rgba(0, 0, 0, 0.05);
+    padding-top: 80px;
+  }
+  .card-2 a{
+    text-decoration: none;
+    color: rgba(240, 170, 0, 1);
   }
   .card-3{
     width: 400px;
     height: 500px;
     background: linear-gradient(rgba(242, 232, 255, 1),white);
     border-radius: 10px;
+    box-shadow: 0 3px 0 1px rgba(0, 0, 0, 0.05);
+    padding-top: 80px;
   }
-
+  .card-3 a{
+    text-decoration: none;
+    color: rgba(135, 0, 255, 1);
+  }
+  .round-buttons{
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+  }
 
 
 
